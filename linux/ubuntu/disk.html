@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>磁盘挂载 | 博客-凡心</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.d3d7476b.css" as="style"><link rel="preload" href="/assets/js/app.22758e96.js" as="script"><link rel="preload" href="/assets/js/2.733019b2.js" as="script"><link rel="preload" href="/assets/js/34.363eb4ca.js" as="script"><link rel="prefetch" href="/assets/js/10.663c0d4d.js"><link rel="prefetch" href="/assets/js/11.3dee91a7.js"><link rel="prefetch" href="/assets/js/12.93b2308a.js"><link rel="prefetch" href="/assets/js/13.b04f8300.js"><link rel="prefetch" href="/assets/js/14.313ce997.js"><link rel="prefetch" href="/assets/js/15.f25b35d7.js"><link rel="prefetch" href="/assets/js/16.a74adbab.js"><link rel="prefetch" href="/assets/js/17.241ee93f.js"><link rel="prefetch" href="/assets/js/18.29815936.js"><link rel="prefetch" href="/assets/js/19.a0070cbe.js"><link rel="prefetch" href="/assets/js/20.7cb2de05.js"><link rel="prefetch" href="/assets/js/21.dd045e92.js"><link rel="prefetch" href="/assets/js/22.1e54523f.js"><link rel="prefetch" href="/assets/js/23.b12e89ac.js"><link rel="prefetch" href="/assets/js/24.d6a283f7.js"><link rel="prefetch" href="/assets/js/25.1206a10c.js"><link rel="prefetch" href="/assets/js/26.3270914a.js"><link rel="prefetch" href="/assets/js/27.1e271015.js"><link rel="prefetch" href="/assets/js/28.fd4a9645.js"><link rel="prefetch" href="/assets/js/29.e2eda25b.js"><link rel="prefetch" href="/assets/js/3.6a67ef83.js"><link rel="prefetch" href="/assets/js/30.adf56e7e.js"><link rel="prefetch" href="/assets/js/31.55a5854e.js"><link rel="prefetch" href="/assets/js/32.1d419fd7.js"><link rel="prefetch" href="/assets/js/33.2b829a5d.js"><link rel="prefetch" href="/assets/js/35.2ee01510.js"><link rel="prefetch" href="/assets/js/36.02bff10f.js"><link rel="prefetch" href="/assets/js/37.bbec78f5.js"><link rel="prefetch" href="/assets/js/38.154c1514.js"><link rel="prefetch" href="/assets/js/39.8d3b1198.js"><link rel="prefetch" href="/assets/js/4.b2741801.js"><link rel="prefetch" href="/assets/js/40.19756cee.js"><link rel="prefetch" href="/assets/js/41.93feae32.js"><link rel="prefetch" href="/assets/js/42.7a4e7c05.js"><link rel="prefetch" href="/assets/js/43.b06146cd.js"><link rel="prefetch" href="/assets/js/44.6ef0eb28.js"><link rel="prefetch" href="/assets/js/45.0067639c.js"><link rel="prefetch" href="/assets/js/46.fd305ef7.js"><link rel="prefetch" href="/assets/js/47.ed6f8eca.js"><link rel="prefetch" href="/assets/js/48.36977bfa.js"><link rel="prefetch" href="/assets/js/49.f0d65de1.js"><link rel="prefetch" href="/assets/js/5.42cca8c0.js"><link rel="prefetch" href="/assets/js/50.e0b2c2ce.js"><link rel="prefetch" href="/assets/js/51.524befc7.js"><link rel="prefetch" href="/assets/js/52.252a40af.js"><link rel="prefetch" href="/assets/js/53.c1b234fc.js"><link rel="prefetch" href="/assets/js/54.01e369b6.js"><link rel="prefetch" href="/assets/js/55.a79e0d3b.js"><link rel="prefetch" href="/assets/js/56.8aa2c848.js"><link rel="prefetch" href="/assets/js/57.f20d5169.js"><link rel="prefetch" href="/assets/js/58.1415be48.js"><link rel="prefetch" href="/assets/js/59.c307470c.js"><link rel="prefetch" href="/assets/js/6.2d0a63f8.js"><link rel="prefetch" href="/assets/js/60.645e797a.js"><link rel="prefetch" href="/assets/js/61.a44cb0e6.js"><link rel="prefetch" href="/assets/js/62.37463bdd.js"><link rel="prefetch" href="/assets/js/63.4148f1c8.js"><link rel="prefetch" href="/assets/js/64.05bffb35.js"><link rel="prefetch" href="/assets/js/65.a61b4db7.js"><link rel="prefetch" href="/assets/js/66.c1969353.js"><link rel="prefetch" href="/assets/js/67.e155de3b.js"><link rel="prefetch" href="/assets/js/68.12757f48.js"><link rel="prefetch" href="/assets/js/69.fc4ee8c2.js"><link rel="prefetch" href="/assets/js/7.79f9507b.js"><link rel="prefetch" href="/assets/js/70.48265c2f.js"><link rel="prefetch" href="/assets/js/71.34aee2de.js"><link rel="prefetch" href="/assets/js/72.14024057.js"><link rel="prefetch" href="/assets/js/73.f552e9a7.js"><link rel="prefetch" href="/assets/js/74.1ea2b2e3.js"><link rel="prefetch" href="/assets/js/75.4c56b3a1.js"><link rel="prefetch" href="/assets/js/76.b4ef455e.js"><link rel="prefetch" href="/assets/js/77.31949057.js"><link rel="prefetch" href="/assets/js/78.99e986b0.js"><link rel="prefetch" href="/assets/js/79.762e756d.js"><link rel="prefetch" href="/assets/js/8.c36d28eb.js"><link rel="prefetch" href="/assets/js/80.2510737e.js"><link rel="prefetch" href="/assets/js/81.95f8ffa8.js"><link rel="prefetch" href="/assets/js/82.34e5c317.js"><link rel="prefetch" href="/assets/js/83.d8a9bb67.js"><link rel="prefetch" href="/assets/js/84.b027705f.js"><link rel="prefetch" href="/assets/js/85.390ebec9.js"><link rel="prefetch" href="/assets/js/86.a432638a.js"><link rel="prefetch" href="/assets/js/87.bc5f55ed.js"><link rel="prefetch" href="/assets/js/88.8c83e1e7.js"><link rel="prefetch" href="/assets/js/9.27f7490e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d3d7476b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">博客-凡心</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/blog/" class="nav-link">
+  搭建博客
+</a></div><div class="nav-item"><a href="https://www.vuepress.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  技术支持
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/blog/" class="nav-link">
+  搭建博客
+</a></div><div class="nav-item"><a href="https://www.vuepress.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  技术支持
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Linux学习</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/linux/" aria-current="page" class="sidebar-link">学习掌握Linux操作系统</a></li><li><a href="/linux/connect.html" class="sidebar-link">远程链接</a></li><li><a href="/linux/vmbug.html" class="sidebar-link">虚拟机VWare一些常见错误</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Docker学习</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>项目部署</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="磁盘挂载"><a href="#磁盘挂载" class="header-anchor">#</a> 磁盘挂载</h1> <div class="language-shell extra-class"><pre class="language-shell"><code>ll /dev/disk/by-path/
+</code></pre></div><blockquote><p>lrwxrwxrwx 1 root root  9 4月  13 18:32 pci-0000:00:05.0 -&gt; ../../vda
+lrwxrwxrwx 1 root root 10 4月  13 18:32 pci-0000:00:05.0-part1 -&gt; ../../vda1
+lrwxrwxrwx 1 root root  9 4月  13 18:32 pci-0000:00:06.0 -&gt; ../../vdb
+lrwxrwxrwx 1 root root  9 4月  13 18:32 virtio-pci-0000:00:05.0 -&gt; ../../vda
+lrwxrwxrwx 1 root root 10 4月  13 18:32 virtio-pci-0000:00:05.0-part1 -&gt; ../../vda1
+lrwxrwxrwx 1 root root  9 4月  13 18:32 virtio-pci-0000:00:06.0 -&gt; ../../vdb</p></blockquote> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">fdisk</span> /dev/vdb
+</code></pre></div><blockquote><p>欢迎使用 fdisk (util-linux 2.23.2)。
+更改将停留在内存中，直到您决定将更改写入磁盘。
+使用写入命令前请三思。</p> <p>Device does not contain a recognized partition table
+使用磁盘标识符 0xec7feac9 创建新的 DOS 磁盘标签。</p> <p>命令(输入 m 获取帮助)：<font color="red">n</font>
+Partition type:
+p   primary (0 primary, 0 extended, 4 free)
+e   extended
+Select (default p): <font color="red">p</font>
+分区号 (1-4，默认 1)：<font color="red">1</font>
+起始 扇区 (2048-104857599，默认为 2048)：<font color="red">回车</font>
+将使用默认值 2048
+Last 扇区, +扇区 or +size{K,M,G} (2048-104857599，默认为 104857599)：<font color="red">回车</font>
+将使用默认值 104857599
+分区 1 已设置为 Linux 类型，大小设为 50 GiB</p> <p>命令(输入 m 获取帮助)：<font color="red">w</font>
+The partition table has been altered!</p> <p>Calling ioctl() to re-read partition table.
+正在同步磁盘。</p></blockquote> <div class="language-shell extra-class"><pre class="language-shell"><code>ll /dev/disk/by-path/
+</code></pre></div><blockquote><p>lrwxrwxrwx 1 root root  9 4月  13 18:32 pci-0000:00:05.0 -&gt; ../../vda
+lrwxrwxrwx 1 root root 10 4月  13 18:32 pci-0000:00:05.0-part1 -&gt; ../../vda1
+lrwxrwxrwx 1 root root  9 4月  13 18:46 pci-0000:00:06.0 -&gt; ../../vdb
+lrwxrwxrwx 1 root root 10 4月  13 18:46 pci-0000:00:06.0-part1 -&gt; ../../vdb1
+lrwxrwxrwx 1 root root  9 4月  13 18:32 virtio-pci-0000:00:05.0 -&gt; ../../vda
+lrwxrwxrwx 1 root root 10 4月  13 18:32 virtio-pci-0000:00:05.0-part1 -&gt; ../../vda1
+lrwxrwxrwx 1 root root  9 4月  13 18:46 virtio-pci-0000:00:06.0 -&gt; ../../vdb
+lrwxrwxrwx 1 root root 10 4月  13 18:46 virtio-pci-0000:00:06.0-part1 -&gt; ../../vdb1</p></blockquote> <div class="language-shell extra-class"><pre class="language-shell"><code>mkfs.ext4 /dev/vdb1
+</code></pre></div><blockquote><p>mke2fs 1.42.9 (28-Dec-2013)
+文件系统标签=
+OS type: Linux
+块大小=4096 (log=2)
+分块大小=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+3276800 inodes, 13106944 blocks
+655347 blocks (5.00%) reserved for the super user
+第一个数据块=0
+Maximum filesystem blocks=2162163712
+400 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks:
+32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+4096000, 7962624, 11239424</p> <p>Allocating group tables: 完成<br>
+正在写入inode表: 完成<br>
+Creating journal (32768 blocks): 完成
+Writing superblocks and filesystem accounting information: 完成</p></blockquote> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 配合宝塔面板</span>
+<span class="token function">mount</span> /dev/vdb1 /www
+<span class="token comment"># 最后一步是写入硬盘启动信息，下次重启后自动挂载数据盘</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;/dev/vdb1 /www ext4 defaults 0 0&quot;</span><span class="token operator">&gt;&gt;</span>/etc/fstab
+
+<span class="token comment">#  查看挂载结果</span>
+<span class="token function">df</span> <span class="token parameter variable">-h</span>
+<span class="token comment">#  查看挂载结果</span>
+<span class="token function">cat</span> /etc/fstab
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment">#</span>
+<span class="token comment"># /etc/fstab</span>
+<span class="token comment"># Created by anaconda on Thu Nov 29 03:34:10 2018</span>
+<span class="token comment">#</span>
+<span class="token comment"># Accessible filesystems, by reference, are maintained under '/dev/disk'</span>
+<span class="token comment"># See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info</span>
+<span class="token comment">#</span>
+<span class="token assign-left variable">UUID</span><span class="token operator">=</span>b98386f1-e6a8-44e3-9ce1-a50e59d9a170 /                       ext4    defaults        <span class="token number">1</span> <span class="token number">1</span>
+/www/swap    swap    swap    defaults    <span class="token number">0</span> <span class="token number">0</span>
+dev/vdb1 /www ext4 defaults <span class="token number">0</span> <span class="token number">0</span>
+</code></pre></div><DotLine></DotLine></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.22758e96.js" defer></script><script src="/assets/js/2.733019b2.js" defer></script><script src="/assets/js/34.363eb4ca.js" defer></script>
+  </body>
+</html>
