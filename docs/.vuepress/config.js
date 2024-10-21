@@ -1,6 +1,6 @@
 module.exports = {
   title: "博客-凡心",
-  dest:"./dist",
+  base:"/tortoise-code.github.io/",
   head:[
     // ['script', { type:"module",src: 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/svgDraw-c034b55e.min.js' }]
   ],
