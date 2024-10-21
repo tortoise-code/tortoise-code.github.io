@@ -51,7 +51,7 @@ jobs:
         with:
         # env:
           # 部署到 FrontPages 分支
-          BRANCH: FrontPages
+          BRANCH: MyBlog
           # 部署目录为 VuePress 的默认输出目录
           FOLDER: docs/.vuepress/dist
           # 当前仓库的密钥
