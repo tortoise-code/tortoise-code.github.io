@@ -27,7 +27,7 @@ jobs:
 
 
       - name: Chache dependencies
-        uses: actions/chache@v3
+        uses: actions/cache@v3
         id: npm-chache
         with:
           # Upload entire repository
