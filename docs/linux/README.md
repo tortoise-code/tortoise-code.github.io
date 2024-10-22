@@ -10,6 +10,13 @@
 [Centos系统官网](https://www.centos.org/)
 > https://www.centos.org/
 
+[历史版本](https://vault.centos.org/)
+> https://vault.centos.org/
+
+选择`版本号`->`isos`目录->`操作系统位数`->`文件名.iso`
+
+> 尽量选择有网络驱动的 方便后期安装其他工具软件(视自己爱好也可以安装桌面版)
+
 ## 安装Ubuntu操作系统
 
 [中文版下载地址](https://cn.ubuntu.com/download/desktop)
