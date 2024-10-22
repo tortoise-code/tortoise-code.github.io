@@ -22,7 +22,7 @@
 
 2. 点击`重新加载`图片加载包文件
 
-![/mvn0.jpg](https://media.codecore.cn/markdown/mvn0.jpg)
+![/mvn0.jpg](http://media.codecore.cn/markdown/mvn0.jpg)
 
 3. 加载成功的标志是打开`pom.xml`
 
@@ -62,13 +62,13 @@
 
 1. 修改连接信息
 
-![/whconf0.jpg](https://media.codecore.cn/markdown/whconf0.jpg)
+![/whconf0.jpg](http://media.codecore.cn/markdown/whconf0.jpg)
 
 2. 开放宝塔数据库
 
 > 宝塔数据库默认只有服务器上软件访问,我们在`宿主`电脑上无法直接访问
 
-![/openmysql.jpg](https://media.codecore.cn/markdown/openmysql.jpg)
+![/openmysql.jpg](http://media.codecore.cn/markdown/openmysql.jpg)
 
 > 项目正式上线后考虑到数据库安全可以关闭该端口
 
@@ -76,13 +76,13 @@
 
 > 测试阶段一般不做更改
 
-![/whconf1.jpg](https://media.codecore.cn/markdown/whconf1.jpg)
+![/whconf1.jpg](http://media.codecore.cn/markdown/whconf1.jpg)
 
 ### 启动
 
 右上角点击绿色三角启动
 
-![/whrun.jpg](https://media.codecore.cn/markdown/whrun.jpg)
+![/whrun.jpg](http://media.codecore.cn/markdown/whrun.jpg)
 
 ::: tip 管理员账号
 
@@ -95,7 +95,7 @@
 
 打包之前请将数据库连接地址改成`127.0.0.1`,后期项目部署时一般本地访问
 
-![/build.jpg](https://media.codecore.cn/markdown/build.jpg)
+![/build.jpg](http://media.codecore.cn/markdown/build.jpg)
 
 1. 点击打开`IDE`右侧`Maven`管理
 2. 展开点击选中`package`
@@ -107,7 +107,7 @@
 
 1. `dos`打开`jar`包所在目录
 
-![/jarcmd.jpg](https://media.codecore.cn/markdown/jarcmd.jpg)
+![/jarcmd.jpg](http://media.codecore.cn/markdown/jarcmd.jpg)
 
 2. 执行命令
 

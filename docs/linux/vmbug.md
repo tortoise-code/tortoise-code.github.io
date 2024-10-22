@@ -8,20 +8,20 @@
 
 如图:
 
-![/networker.png](https://media.codecore.cn/markdown/networker.png)
+![/networker.png](http://media.codecore.cn/markdown/networker.png)
 
 解决办法:
 
 1. 打开虚拟`编辑`,点击`虚拟网络编辑器`
 
-![/1.png](https://media.codecore.cn/markdown/1.png)
+![/1.png](http://media.codecore.cn/markdown/1.png)
 
 2. 点击`更改设置`
 
-![/2.png](https://media.codecore.cn/markdown/2.png)
+![/2.png](http://media.codecore.cn/markdown/2.png)
 
 3. 点击`还原默认设置`
 
-![/3.PNG](https://media.codecore.cn/markdown/3.PNG)
+![/3.PNG](http://media.codecore.cn/markdown/3.PNG)
 
 ### 无法解决尝试重装vmware

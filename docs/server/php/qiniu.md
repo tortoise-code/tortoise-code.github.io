@@ -24,7 +24,7 @@ return [
     "qiniubackup" => [
         'secretKey' => '', //七牛服务器
         'accessKey' => '-LXnSfM7K2Q2lqsh2', //七牛用户
-        'domain' => 'https://media.codecore.cn/', //七牛域名
+        'domain' => 'http://media.codecore.cn/', //七牛域名
         'bucket' => '',
         'timeout' => 300 //超时时间
     ]

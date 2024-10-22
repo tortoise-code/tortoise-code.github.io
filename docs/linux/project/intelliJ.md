@@ -15,7 +15,7 @@
 
 1. 打开`file`或`文件`
 
-![/ijzh.jpg](https://media.codecore.cn/markdown/ijzh.jpg)
+![/ijzh.jpg](http://media.codecore.cn/markdown/ijzh.jpg)
 
 2. 选中`setting`
 
@@ -23,4 +23,4 @@
 
 4. 输入`chinese`安装简体中文
 
-![/ijzh1.jpg](https://media.codecore.cn/markdown/ijzh1.jpg)
+![/ijzh1.jpg](http://media.codecore.cn/markdown/ijzh1.jpg)

@@ -141,7 +141,7 @@ sudo chmod +x navicat16-mysql-cs.AppImage
 
 配置链接信息
 
-![/navicat.PNG](https://media.codecore.cn/markdown/navicat.PNG)
+![/navicat.PNG](http://media.codecore.cn/markdown/navicat.PNG)
 
 ## 添加远程登录用户
 

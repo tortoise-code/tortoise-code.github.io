@@ -29,21 +29,21 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
 
 1. 找到`环境变量`配置
 
-![/je.jpg](https://media.codecore.cn/markdown/je.jpg)
+![/je.jpg](http://media.codecore.cn/markdown/je.jpg)
 
-![/je1.jpg](https://media.codecore.cn/markdown/je1.jpg)
+![/je1.jpg](http://media.codecore.cn/markdown/je1.jpg)
 
-![/je2.jpg](https://media.codecore.cn/markdown/je2.jpg)
+![/je2.jpg](http://media.codecore.cn/markdown/je2.jpg)
 
 2. 配置`环境变量`
 
-![/je3.jpg](https://media.codecore.cn/markdown/je3.jpg)
+![/je3.jpg](http://media.codecore.cn/markdown/je3.jpg)
 
 `java`默认安装位置
 
 `C:\Program Files\Java\jdk1.8.0_162\bin`
 
-![/je4.jpg](https://media.codecore.cn/markdown/je4.jpg)
+![/je4.jpg](http://media.codecore.cn/markdown/je4.jpg)
 
 > 配置环境变量时尽量复制粘贴途径,不要手写
 

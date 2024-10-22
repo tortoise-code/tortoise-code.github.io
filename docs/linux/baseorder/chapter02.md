@@ -11,10 +11,15 @@ mkdir docs
 mkdir -p docs/.vuepress/public
 ```
 
-::: tip 查看目录小技巧
-上述例子如果出现 多个嵌套目录 `docs/.vuepress` `docs/guide` <br>
-再加上文件后很难通过`ls`去查看<br>
+上述例子如果出现多个嵌套目录
+如：
+> `docs/.vuepress`
+> `docs/guide` 
+
+再加上文件名后很难通过`ls`去查看
+
 可以通过下载命令工具`tree`用来直观查看<br>
+
 ``` shell
 # 有网情况下
 # centos
@@ -24,7 +29,7 @@ sudo apt-get install tree
 # 使用命令查看文件
 tree docs
 ```
-:::
+
 
 ## 删除文件夹
 
