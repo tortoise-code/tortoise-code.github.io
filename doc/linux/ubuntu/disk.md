@@ -36,6 +36,7 @@ fdisk /dev/vdb
 > 
 > Calling ioctl() to re-read partition table.
 > 正在同步磁盘。
+
 ```shell
 ll /dev/disk/by-path/
 ```
