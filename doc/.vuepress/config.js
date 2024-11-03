@@ -1,6 +1,5 @@
 module.exports = {
   title: "博客-凡心",
-  base:"./",
   dest:"docs",
   head:[
     // ['script', { type:"module",src: 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/svgDraw-c034b55e.min.js' }]
