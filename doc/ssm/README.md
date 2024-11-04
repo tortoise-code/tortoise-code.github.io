@@ -24,3 +24,6 @@
 - 教材作者：`黑马程序员`
 - 出 版 社 ：[人民邮电出版社](https://www.ryjiaoyu.com/book/details/44411)
 
+
+[IDEA2024激活包](http://media.codecore.cn/markdown/package/Idea激活.zip)
+[IDEA2024软件](http://media.codecore.cn/markdown/package/ideaIU-2024.2.3.exe) 
