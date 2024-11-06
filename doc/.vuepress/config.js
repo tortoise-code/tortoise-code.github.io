@@ -8,6 +8,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '搭建博客', link: '/blog/' },
+      { text: 'SSM讲解', link: '/server/ssm/' },
       { text: '技术支持', link: 'https://www.vuepress.cn/' },
     ],
     sidebar: {
@@ -18,7 +19,12 @@ module.exports = {
       '/server/ssm/': [
         '',
         'c1',
-        'c2'
+        'c2',
+        'c3',
+        'c4',
+        'c5',
+        'c6',
+        'c7'
       ],
       '/linux/': [
         {
