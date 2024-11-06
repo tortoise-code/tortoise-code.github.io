@@ -1,7 +1,7 @@
 module.exports = {
   title: "博客-凡心",
-  dest:"docs",
-  head:[
+  dest: "docs",
+  head: [
     // ['script', { type:"module",src: 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/svgDraw-c034b55e.min.js' }]
   ],
   themeConfig: {
@@ -15,6 +15,11 @@ module.exports = {
         '',
         'installblog',
       ],
+      '/server/ssm/': [
+        '',
+        'c1',
+        'c2'
+      ],
       '/linux/': [
         {
           title: 'Linux学习',
@@ -25,6 +30,7 @@ module.exports = {
             "vmbug",
           ]
         },
+
         //  {
         //   title: '命令',
         //   children: [
@@ -33,7 +39,7 @@ module.exports = {
         //     'baseorder/chapter03'
         //   ]
         // },
-         {
+        {
           title: "Docker学习",
           children: [
             'docker/',
