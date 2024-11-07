@@ -3,8 +3,8 @@
 ## 教学计划
 |章节|章节名|课时安排|
 |:--:|:--:|:--:|
-|1|初识MyBatis框架|2|
-|2|MyBatis的核心配置|4|
+|1|初识MyBatis框架|4|
+|2|MyBatis的核心配置|6|
 |3|动态SQL|4|
 |4|MyBatis的关联映射和缓存机制|4|
 |5|MyBatis的注解开发|4|
@@ -33,3 +33,16 @@
 [IDEA2024软件](http://media.codecore.cn/markdown/package/ideaIU-2024.2.3.exe) 
 
 - 感谢同学`杨帆`提供软件支援
+
+
+## 英语单词读法
+
+英文读法
+
+* `relational` `[rɪˈleɪʃənl]` 关系
+* `mapping` `[ 'mæpiŋ ]` 映射
+* `hibernate` `[ˈhaɪbəneɪt]`
+* `sqlSession` `[ˈsikwəlˈseʃn]` sql会话对象
+* `factory` `[ˈfæktri]` 工厂 
+* `Builder` `[ˈbɪldə(r)]` 创建者
+> sqlSessionFactoryBuilder
