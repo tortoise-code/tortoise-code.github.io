@@ -44,5 +44,8 @@
 * `hibernate` `[ˈhaɪbəneɪt]`
 * `sqlSession` `[ˈsikwəlˈseʃn]` sql会话对象
 * `factory` `[ˈfæktri]` 工厂 
-* `Builder` `[ˈbɪldə(r)]` 创建者
-> sqlSessionFactoryBuilder
+* `Builder` `[ˈbɪldə(r)]` 创建者 (sqlSessionFactoryBuilder)
+* `association` `[əˌsəʊsiˈeɪʃn]` 关联
+* `property` `[ˈprɒpəti]` 所有物
+* `column` `[ˈkɒləm]` 列
+
