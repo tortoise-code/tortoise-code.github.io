@@ -27,14 +27,7 @@
 
 ## 开发软件
 
-> idea新版,第一次安装完软件后不要打开试用,直接执行激活文件`.vbs`后缀脚本
-
-[IDEA2024激活包](http://media.codecore.cn/markdown/package/Idea激活.zip)
-[IDEA2024软件](http://media.codecore.cn/markdown/package/ideaIU-2024.2.3.exe) 
-
-- 感谢同学`杨帆`提供软件支援
-
-[教程](./help.md)
+- 感谢同学`杨帆`提供软件支援 [点我查看教程](./help.md)
 
 
 ## 英语单词读法
