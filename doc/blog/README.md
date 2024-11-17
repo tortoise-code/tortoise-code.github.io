@@ -25,6 +25,17 @@
 
 ## 搭建环境
 
+
+### npm配置淘宝镜像源
+
+> npm下载可能失败 大概率网慢
+
+``` shell
+npm config set registry https://registry.npm.taobao.org/
+```
+
+### 搭建博客
+
 第一步:创建一个WebBlog目录(名字可以自己起)
 
 第二步:用命令进行配置
@@ -37,18 +48,10 @@ npm init -y # 初始化你的目录 不加-y需要自己配置
 npm install -D vuepress # 安装vuepress 
 
 ```
-> npm下载可能失败 大概率网慢
 
-### npm配置淘宝镜像源
+第三步:`WebBlog`目录下创建`doc`目录
 
-``` shell
-npm config set registry https://registry.npm.taobao.org/
-```
-> 切换到淘宝后 再次执行 `npm install -D vuepress`
-
-第三步:`WebBlog`目录下创建`docs`目录
-
-> docs是系统名称 你所有的`Markdown`文档都是在这里放的
+> doc是系统名称 你所有的`Markdown`文档都是在这里放的
 
 ## 启动本地网站和打包应用
 
@@ -66,34 +69,77 @@ npm config set registry https://registry.npm.taobao.org/
 
 ``` json
  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev doc",
+    "docs:build": "vuepress build doc"
   }
 ```
 
-> 注意:小技巧 目录上方 `资源管理器`右边三个点 勾选npm
+> 注意:小技巧 `VS Code`目录上方 `资源管理器`右边三个点 勾选npm
 
 由于版本更新node18版会导致错误 18.0以上需要更改配置为
 
 ``` json
 "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider  && vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider  && vuepress dev doc",
+    "docs:build": "vuepress build doc"
   }
 ```
+
 > 点击`vscode`左下角启动`docs:dev`本地调试查看自己的博客
+
+### 打包网站
 
 打包生成网站也需要修改一下命令配置
 
 ``` json
 "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
-    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+    "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev doc",
+    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build doc"
   }
 ```
+> 考虑到上传`GitHub`需要设置一下生成静态网站的目录
+
+* 在`doc`目录下创建`.vuepress`目录
+* 在`.vuepress`目录下创建`config.js`目录下
+
+![20241116163651-2024-11-16-16-36-54](http://media.codecore.cn/markdown/20241116163651-2024-11-16-16-36-54.png)
+
+必须有`dest`指明打包网站生成位置,`docs`指定生成项目目录`docs`目录下(主要为了适配`github`的page设置)
+
+* `title`是网站标题
+* `themeConfig`是主题配置
+* `nav`是顶部菜单选项
+* `sidebar`是左侧菜单
+
+``` js
+// config.js
+module.exports = {
+  title: "博客-白龟科技",
+  dest: "docs",
+  themeConfig: {
+    nav: [
+      { text: '首页', link: '/' },
+      { text: 'SSM讲解', link: '/server/ssm/' },
+      { text: '技术支持', link: 'https://www.vuepress.cn/' },
+    ],
+    sidebar: {
+      '/blog/': [
+        '',
+        'installblog',
+      ],
+      '/': [
+        '',
+        'guide',
+        'about'
+      ]
+    }
+  }
+}
+```
+::: warning 说明
+需要上传图片等静态资源,将资源放在`.vuepress`目录下`public`目录
+:::
+
 
 > 点击`vscode`左下角启动`docs:build`打包构建web网站
 

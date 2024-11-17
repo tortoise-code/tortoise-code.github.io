@@ -19,9 +19,19 @@
 * 要求:
 * * 仓库名是你 `账户名.github.io`
 * * 例如github账户名 `fanxin` 仓库名为 `fanxin.github.io`
-* * 创建仓库时勾选 `README`文件(使用中文翻译时 勾选 `自述文件` )
+<!-- * * 创建仓库时勾选 `README`文件(使用中文翻译时 勾选 `自述文件` ) -->
 
-### 下载前置工作
+### 本地仓库上传
+
+> 本示例使用`vscode`将`vuepress`上传到`github`
+![vscode添加远程](http://media.codecore.cn/markdown/20241116165731-2024-11-16-16-57-32.png)
+
+### GitHub设置
+
+打开你的项目,点击设置,点击page选项,将目录设置为`docs`
+
+
+<!-- ### 下载前置工作
 
 > 当你通过HTTPS访问Git远程仓库，如果服务器的SSL证书未经过第三方机构签署，那么Git就会报错
 
@@ -56,7 +66,7 @@ git clone #你github的https地址
 * 项目克隆成功后使用`vscode`打开该文件夹
 * 点击`vscode`左侧边栏`git图标`
 * 填写提交备注并点击`提交`
-* 点击`同步`
+* 点击`同步` -->
 
 
 
