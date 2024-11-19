@@ -37,15 +37,6 @@ module.exports = {
             "vmbug",
           ]
         },
-
-        //  {
-        //   title: '命令',
-        //   children: [
-        //     'baseorder/chapter01',
-        //     'baseorder/chapter02',
-        //     'baseorder/chapter03'
-        //   ]
-        // },
         {
           title: "Docker学习",
           children: [
@@ -66,25 +57,6 @@ module.exports = {
             'project/install',
           ],
         }],
-      '/server/': [
-        {
-          title: "后端服务",
-          children: [
-            {
-              title: 'Java',
-              children: [
-                'java/maven'
-              ]
-            },
-            {
-              title: 'JSP动态网站',
-              children: [
-                'jsp/'
-              ]
-            }
-          ]
-        }
-      ],
       '/': [
         '',
         'guide',

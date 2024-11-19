@@ -8,8 +8,8 @@
 |3|动态SQL|4|
 |4|MyBatis的关联映射和缓存机制|4|
 |5|MyBatis的注解开发|4|
-|6|初识Spring框架|2|
-|7|Spring中的Bean管理|8|
+|6|初识Spring框架|4|
+|7|Spring中的Bean管理|4|
 |8|Spring AOP|8|
 |9|Spring的数据库编程|4|
 |10|初识Spring MVC|4|
@@ -27,8 +27,8 @@
 
 ## 开发软件
 
-- 感谢同学`杨帆`提供软件支援 [点我查看教程](./help.md)
-
+- 感谢同学`杨帆`提供软件支援 [点我查看教程](../help/install_idea.md)
+- [点我配置Maven](../help/maven.md)
 
 ## 英语单词读法
 
@@ -43,4 +43,4 @@
 * `association` `[əˌsəʊsiˈeɪʃn]` 关联
 * `property` `[ˈprɒpəti]` 所有物
 * `column` `[ˈkɒləm]` 列
-
+* `bean` `[biːn]` 豆子
