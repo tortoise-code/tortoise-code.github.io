@@ -44,3 +44,7 @@
 * `property` `[ˈprɒpəti]` 所有物
 * `column` `[ˈkɒləm]` 列
 * `bean` `[biːn]` 豆子
+* `component` `[kəmˈpəʊnənt]` 部件
+* `autowired` `[ˈɔːtəʊˈwaɪəd]` 自动装配
+* `aspect` `[ˈæspekt]` 切面
+

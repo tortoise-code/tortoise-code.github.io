@@ -32,21 +32,21 @@ mvn -v
 
 1. 历史版本
 
-![/m1.jpg](http://media.codecore.cn/markdown/m1.jpg)
+![m1.jpg](http://media.codecore.cn/markdown/m1.jpg)
 
 2. 寻找下载
 
 打开`maven-3` 选择 `3.6.3`
 
-![/md2.jpg](http://media.codecore.cn/markdown/md2.jpg)
+![md2.jpg](http://media.codecore.cn/markdown/md2.jpg)
 
 
 打开`binaries`目录
 
-![/m105515.jpg](http://media.codecore.cn/markdown/m105515.jpg)
+![m105515.jpg](http://media.codecore.cn/markdown/m105515.jpg)
 
 选择`apache-maven-3.6.3-bin.zip`
-![/m2023-04-26-105611.jpg](http://media.codecore.cn/markdown/m2023-04-26-105611.jpg)
+![m2023-04-26-105611.jpg](http://media.codecore.cn/markdown/m2023-04-26-105611.jpg)
 
 也可以[maven3.6.3](https://dlcdn.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip)
 
@@ -55,7 +55,7 @@ mvn -v
 ### 设置maven目录
 解压后文件
 
-![/2023-04-26-110215.jpg](http://media.codecore.cn/markdown/2023-04-26-110215.jpg)
+![2023-04-26-110215.jpg](http://media.codecore.cn/markdown/2023-04-26-110215.jpg)
 
 可以任意存放文件夾位置
 
@@ -70,7 +70,7 @@ mvn -v
 
 找到 `settings.xml` `文本编辑器`打开编辑
 
-![/2023-04-26-110740.jpg](http://media.codecore.cn/markdown/2023-04-26-110740.jpg)
+![2023-04-26-110740.jpg](http://media.codecore.cn/markdown/2023-04-26-110740.jpg)
 
 找到`<mirrors>标签`设置阿里仓库
 
@@ -247,11 +247,11 @@ under the License.
 
 直接点击`系统变量`中`Path`把maven中`bin`文件夹地址添加进去
 
-![/2023-04-26112348.jpg](http://media.codecore.cn/markdown/2023-04-26112348.jpg)
+![2023-04-26112348.jpg](http://media.codecore.cn/markdown/2023-04-26112348.jpg)
 
 添加用户系统变量`MAVEN_HOME`
 
-![/2023-04-26112540.jpg](http://media.codecore.cn/markdown/2023-04-26112540.jpg)
+![2023-04-26112540.jpg](http://media.codecore.cn/markdown/2023-04-26112540.jpg)
 
 ### 测试maven
 
@@ -261,13 +261,13 @@ mvn -v
 
 ## IJ IDEA设置maven路径
 
-![/2023-04-26132805.jpg](http://media.codecore.cn/markdown/2023-04-26132805.jpg)
+![2023-04-26132805.jpg](http://media.codecore.cn/markdown/2023-04-26132805.jpg)
 
 仓库位置可以自定义
 
 其他配置按照`maven`安装方式配置
 
-![/2023-04-26132956.jpg](http://media.codecore.cn/markdown/2023-04-26132956.jpg)
+![2023-04-26132956.jpg](http://media.codecore.cn/markdown/2023-04-26132956.jpg)
 
 ::: warning 注意
 每个项目都需要idea里从新设置maven加速
