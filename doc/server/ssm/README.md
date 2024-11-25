@@ -47,4 +47,7 @@
 * `component` `[kəmˈpəʊnənt]` 部件
 * `autowired` `[ˈɔːtəʊˈwaɪəd]` 自动装配
 * `aspect` `[ˈæspekt]` 切面
-
+* `dispatcher` `[dɪˈspætʃə(r)]` 调度员
+* `handler` `[ˈhændlə(r)]` 操作员
+* `controller` `[kənˈtrəʊlə(r)]` 控制
+* `servlet` `['sɜ:vlet]` 小服务程序
