@@ -13,9 +13,9 @@
 |8|Spring AOP|8|
 |9|Spring的数据库编程|4|
 |10|初识Spring MVC|4|
-|11|Spring MVC的核心类和注解|8|
-|12|Spring MVC数据绑定和响应|8|
-|13|Spring MVC的高级功能|8|
+|11|Spring MVC的核心类和注解|2|
+|12|Spring MVC数据绑定和响应|12|
+|13|Spring MVC的高级功能|4|
 |14|SSM框架整合|4|
 |15|云借阅图书管理系统|24|
 
